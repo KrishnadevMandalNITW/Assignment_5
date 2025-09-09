@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family:'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header{
+    background-image: url("./nav_background1.jpg");
+    background-size: cover;
+    font-family:'Poppins', sans-serif;
+}
+
+header{
+    display: flex;
+    gap: 460px;
+    align-items: center;
+}
+
+header img {
+    padding-left: 20px;
+    border-radius: 30%;
+    height: 150px;
+}
+
+header h1 {
+    font-family: "Lavishly Yours", cursive;
+    text-shadow: 2px 2px 4px #000000a1;
+    color: #0D5EA6;
+    font-size: 50px;
+}
+
+header h1 span {
+    font-family: "Lavishly Yours", cursive;
+    text-shadow: 2px 2px 4px #000000a1;
+    font-size: 50px;
+    color: rgb(255, 145, 0);
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul{
+    width: 80vw;
+    background-color: #0d5fa6d9;
+    border-radius: 2%;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+a:hover{
+    color: rgb(114, 214, 7);
+    text-decoration: underline;
+    transition: all 0.1s ease-in;
+}
+
+.hero {
+    background-image: url("./hero_banner.jpg");
+    background-size: cover;
+    height: 20rem;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    color: rgb(252, 248, 3);
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px #000000a1;
+}
+
+h2 span {
+    color: rgb(127, 255, 185);
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px #000000a1;
+}
+
+button {
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    box-shadow:2px 2px 4px #000000a1;
+    color: rgb(73, 162, 113);
+    cursor: pointer;
+    margin: 0.5rem;
+}
+
+button:focus-within {
+    background-color: rgba(128, 128, 128, 0.675);
+    color: rgb(89, 252, 162);
+    transition: all ease 0.3s;
+    transform: scale(1.2);
+}
+
+.heading-align {
+    margin: 40px;
+    text-align: center;
+}
+
+.blog {
+    margin:40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards {
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow:2px 2px 4px #000000a1;
+}
+
+.cards img{
+    width: 20rem;
+    height:15rem;
+}
+
+.cards h3 {
+    color: rgb(3, 116, 202);
+    padding: 10px;
+}
+
+.cards:hover {
+    transition: all ease 0.7s;
+    transform: scale(1.05);
+}
+
+label {
+    display:block;
+}
+
+.subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-box {
+    padding: 0px 10rem 10px 10rem;
+    border-radius: 5px;
+    box-shadow:2px 2px 4px red;
+}
+
+.subscribe-box form button {
+    background-color: red;
+    color: white;
+}
+
+.subscribe-box form button:hover {
+    background-color: rgb(201, 3, 3);
+}
+
+form input {
+    font-family: sans-serif;
+}
+
+footer {
+    padding: 40px;
+    background-color: rgb(108, 169, 239);
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer i{
+    font-size: 4rem;
+    color: white;
+    text-shadow: 2px 2px 4px #000000a1;
+}
